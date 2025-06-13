@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-}
+  output: 'export', // necessário para gerar a pasta "out"
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
